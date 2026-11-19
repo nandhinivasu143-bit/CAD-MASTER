@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="96" fill="#0E1117"/>
+  <rect x="24" y="24" width="464" height="464" rx="76" stroke="#1E293B" stroke-width="6"/>
+  <!-- Subtle CAD grid -->
+  <path d="M128 96V416M256 96V416M384 96V416M96 128H416M96 256H416M96 384H416" stroke="#1E293B" stroke-width="4" stroke-linecap="round"/>
+  <!-- Right-angle drafting frame -->
+  <path d="M124 388V148M124 388H364" stroke="#38BDF8" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Diagonal measurement line with arrowheads -->
+  <path d="M148 364L372 140" stroke="#F8FAFC" stroke-width="24" stroke-linecap="round"/>
+  <path d="M308 140H372V204" stroke="#38BDF8" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Center snap node -->
+  <circle cx="256" cy="256" r="24" fill="#0E1117" stroke="#22C55E" stroke-width="12"/>
+</svg>
